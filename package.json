@@ -1,5 +1,5 @@
 {
-  "name": "saveoursource",
+	"name": "saveoursource",
 	"displayName": "SaveOurSource",
 	"description": "provides save all option on list of unsaved files before executing code and/or source control",
 	"version": "0.0.1",
@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:saveoursource.helloWorld"
+		"onCommand:saveoursource.checkUnsaved"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "saveoursource.helloWorld",
-				"title": "Hello World"
+				"command": "saveoursource.checkUnsaved",
+				"title": "Check Unsaved"
 			}
 		]
 	},
