@@ -1,7 +1,7 @@
 {
 	"name": "saveoursource",
 	"displayName": "SaveOurSource",
-	"description": "provides save all option on list of unsaved files before executing code and/or source control",
+	"description": "provides save all option on list of unsaved files before executing code via terminal",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.55.0"
@@ -10,17 +10,10 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:saveoursource.checkUnsaved"
+		"onCommand:type"
 	],
 	"main": "./dist/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "saveoursource.checkUnsaved",
-				"title": "Check Unsaved"
-			}
-		]
-	},
+	"contributes": {},
 	"scripts": {
 		"vscode:prepublish": "npm run package",
 		"compile": "webpack",
