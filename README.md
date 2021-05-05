@@ -12,7 +12,7 @@ https://github.com/microsoft/vscode/issues/53107
 ## Features
 
 When a vscode terminal is in use and there are unsaved files in the workspace, the user recieves a prompt which allows them to review and save all unsaved files.
-\!\[init\]\(images/save_our_source_example.gif\)
+![demo](images/save_our_source_example.gif)
 
 ## Known Issues
 
